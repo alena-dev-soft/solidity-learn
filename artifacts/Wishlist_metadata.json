@@ -31,6 +31,19 @@
 						"type": "uint256"
 					}
 				],
+				"name": "deleteWish",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
 				"name": "fulfillWish",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -57,6 +70,11 @@
 								"internalType": "bool",
 								"name": "isFullfilled",
 								"type": "bool"
+							},
+							{
+								"internalType": "uint256",
+								"name": "createdAt",
+								"type": "uint256"
 							}
 						],
 						"internalType": "struct Wishlist.WishItem",
@@ -82,6 +100,11 @@
 								"internalType": "bool",
 								"name": "isFullfilled",
 								"type": "bool"
+							},
+							{
+								"internalType": "uint256",
+								"name": "createdAt",
+								"type": "uint256"
 							}
 						],
 						"internalType": "struct Wishlist.WishItem[]",
@@ -124,6 +147,11 @@
 						"internalType": "bool",
 						"name": "isFullfilled",
 						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "createdAt",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -143,7 +171,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/04day/Whislist.sol": "Wishlist"
+			"contracts/05day/WishlistV2.sol": "Wishlist"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -157,12 +185,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/04day/Whislist.sol": {
-			"keccak256": "0x0d79f7e40cf43b29cc19644d5d964d6572a8bd06896457d76a4fb04183c891b1",
+		"contracts/05day/WishlistV2.sol": {
+			"keccak256": "0x7dfcca737b66ae520682cdc0deb0cf91749649e660a35cbaf8fc02d953800216",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8ffd8449ab0bb9ec5cbc8848572d319cd53e08b47fcae28e5a0d558c8ccd5b4b",
-				"dweb:/ipfs/QmWpoYgqgwTNLt8RuLGPNj4e2kivAnazq2xJtDRcfN1mwo"
+				"bzz-raw://258ca30701510da6b396882bb3971d8fad335285b2c0ff8befca54b6188510fc",
+				"dweb:/ipfs/QmQSAJ1VVTU7nGRbGoihznkYTTrPhnhxDJPrPqqP9tXckV"
 			]
 		}
 	},
